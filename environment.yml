@@ -1,0 +1,14 @@
+name: smolagent           # or whatever env name you prefer
+channels:
+  - conda-forge           # add other channels if needed
+dependencies:
+  - python=3.12            # specify your desired Python version
+  - pip                    # ensure pip is available
+  - pandas                 # conda package
+  - pytz                   # conda package
+  - pip:                   # everything below uses pip install
+    - markdownify
+    - smolagents==1.14.0
+    - requests
+    - duckduckgo_search
+    - gradio==5.23.1
