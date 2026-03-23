@@ -1,0 +1,16 @@
+[project]
+name = "huggingface-ai-agent-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets",
+    "ddgs>=9.11.4",
+    "langchain-core",
+    "llama-index>=0.14.18",
+    "llama-index-llms-huggingface-api>=0.7.0",
+    "llama-index-llms-openai>=0.7.3",
+    "llama-index-retrievers-bm25>=0.7.1",
+    "python-dotenv",
+]
